@@ -1,0 +1,36 @@
+
+body {
+    background-color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.cat {
+    background-color: rgb(194, 167, 116);
+    margin: 0.2em;
+    padding: 1em;
+    border-radius: 3em;
+    border: 0.1em solid brown;
+    flex: 7;
+}
+
+@media (min-width : 960px) {
+    .cats {
+        display: flex;
+    }
+}
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+button {
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 0.5em;
+}
+
+input {
+    padding: 1em;
+    border-radius: 0.5em;
+}
